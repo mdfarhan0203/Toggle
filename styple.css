@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    align-items: center;
+}
+
+.container{
+    height: 3rem;
+    width: 9rem;
+    margin: 10% auto;
+    border-radius: 2rem;
+    border: 2px solid black;
+    position: relative;
+}
+
+.button{
+    position: absolute;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: black;
+    border-radius: 100%;
+    margin-top: 2.5%;
+}
+.body-color{
+    background-color: black;
+    transition: 0.1s;
+}
+.button-container{
+    background-color: black;
+    border: 2px solid white;
+    transition: 0.3s;
+ 
+}
+
+.text{
+    color:white;
+    transition: 0.3s;
+}
+
+
+.button-1{
+    left: 100px;
+    transition:0.3s;
+    background-color: white;
+}
